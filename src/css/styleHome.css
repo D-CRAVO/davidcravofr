@@ -1,0 +1,87 @@
+/* 
+couleur 1 #843C0C
+couleur 2 #FF9900
+couleur 3 #FFCC00
+*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2em;
+    background-color: #843C0C;
+    background-image: url(../img/home/fontHome.jpg);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    color: #e62e00;
+}
+
+img{
+    border-radius: 50%;
+    width: 80%;
+    margin: 3rem auto;
+    
+}
+
+.cv{
+    color: #fff;
+    text-decoration: none;
+    margin: 2.5rem;
+}
+
+.cv:hover{
+    color: #ff0000;
+}
+
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.boutonAcceuil {
+    width: 25rem;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #FFCC00;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.boutonAcceuil:hover {
+    background-color: #ff0000;
+}
+
+.boutonAcceuil:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.gradient
+{
+    background: linear-gradient(#ffffff22, #00000022, #00000022);
+    box-shadow: 0 1px 0 0 black;
+}
+
+@media (min-width: 600px)
+{
+    img{
+        width: 50rem;
+    }
+}
