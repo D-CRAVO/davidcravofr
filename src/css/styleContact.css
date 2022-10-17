@@ -1,12 +1,26 @@
 main{
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5rem;
     padding-top: 15rem;
 }
 
 main p{
     padding: 1rem;
     text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    margin: 1rem;
+}
+
+input{
+    height: 3rem;
 }
 
 a.currentlink,
@@ -34,5 +48,9 @@ a.currentlink:hover{
         width: 80rem;
         font-size: 3rem;
         padding-bottom: 5rem;
+    }
+
+    input, textarea{
+        margin: 1rem 15rem;
     }
 }
