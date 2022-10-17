@@ -21,6 +21,7 @@ a.currentlink:hover{
         width: 40rem;
         font-size: 2rem;
         padding-bottom: 4rem;
+        padding-top: 10rem;
     }
 }
 
@@ -30,6 +31,6 @@ a.currentlink:hover{
         width: 80rem;
         font-size: 3rem;
         padding-bottom: 5rem;
-        padding-top: 5rem;
+        padding-top: 10rem;
     }
 } 
