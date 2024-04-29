@@ -10,7 +10,7 @@ html{
 body{
     font-size: 2em;
     background-color: #0D4663;
-    background-image: url(../img/home/fontHome.jpg);
+    /*background-image: url(../img/home/fontHome.jpg);*/
     color: #fff;
     display: flex;
     flex-direction: column;

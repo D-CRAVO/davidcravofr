@@ -19,6 +19,10 @@ a.currentlink:hover{
     font-weight: bold;
 }
 
+main img{
+    width: 50px;
+}
+
 @media (min-width: 600px) and (max-width: 1024px)
 {
     main{
