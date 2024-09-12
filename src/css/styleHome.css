@@ -59,7 +59,7 @@ main h1 a:hover,
     color: #ff0000;
 }
 
-main article div{
+div{
     display: flex;
     flex-direction: column;
     justify-content: center;
