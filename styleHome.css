@@ -24,7 +24,7 @@ h1 a{
 img{
     border-radius: 50%;
     width: 20%;
-    margin: 3rem auto;
+    margin: 3rem 15rem;
 }
 
 a.currentlink,
@@ -43,10 +43,11 @@ a.currentlink:hover{
 
 main{
     margin-top: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
+}
+
+main article{
+    display: flex;
 }
 
 main h1{
@@ -56,6 +57,13 @@ main h1{
 main h1 a:hover,
 .cv:hover{
     color: #ff0000;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
 
 button a{
@@ -107,6 +115,6 @@ button a{
 @media (min-width: 600px)
 {
     img{
-        width: 50rem;
+        width: 40rem;
     }
 }
